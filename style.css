@@ -1,0 +1,120 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Sharons Code */
+
+body {
+}
+
+
+
+#wrapper {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.greeting {
+	float:left;
+	text-align: left;
+	padding-top:20px;
+	font-size: 14px;
+}
+
+nav {
+	float:right;
+	padding-top: 20px;
+}
+
+nav li{
+	padding-right:10px;
+	display: inline;
+	font-size: 14px;
+}
+
+nav li a{
+	text-decoration:none;
+}
+
+.main{
+	width:900px;
+	margin:0 auto;
+	text-align:center;
+	padding-top: 90px;
+}
+
+h1{
+	font-family: 'CrimsonSemibold', 'Times New Roman', Georgia, serif;
+	font-size: 58px;
+	font-weight: bold;
+	font-height: 58px;
+	color: #232323;
+	line-spacing: -2px;
+}
+
+h3{
+	font-family: 'CrimsonSemibold', 'Times New Roman', Georgia, serif;
+	font-size: 20px;
+	padding-top:20px;
+}
+
+.box {
+	display:inline-block;
+	float-left;
+	margin:40px 10px;
+	width:160px;
+	height: 240px;
+	border: 1px solid #e8e8e8;
+	border-radius: 5px;
+	box-shadow: 0 0 5px #efefef;
+	background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#efefef));
+}
+
+
