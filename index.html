@@ -3,6 +3,8 @@
 
 <head>
 	<title>37signals</title>
+	<script src="jquery-2.0.3.min.js"></script>
+	<script src="application.js" type="text/javascript"></script> 
 	<meta charset="UTF-8">
 	<link rel="stylesheet" href="style.css"/>
 </head>
@@ -10,7 +12,7 @@
 <body>
 <div id="wrapper">
 	<header>
-		<p class="greeting">Happy Sunday.</p>
+		<p class="greeting">Happy Thursday.</p>
 		<nav role=navigation>
 			<ul>
 				<li><a href="#">Company blog</a></li>
@@ -22,33 +24,69 @@
 		</nav>
 	</header>
 
+
 	<div class="main">
-		<img src="images/logo-37s-large.jpg" width "164" height "39"alt="37signals-logo">
-		<h1>Making collaboration productive and enjoyable for people every day.</h1>
+		<img src="images/logo-37s-large.jpg" width "164"=height="39" alt="37signals-logo">
+
+		<div class="banner"><h1>Making collaboration productive and enjoyable for people every day.</h1>
 		<h2>Frustration-free web-based apps for collaboration, sharing information, and making decisions.</h2>
+	</div>
+		
+		<!--This is substitute banner for box 1-->
+
+		<div class="bannerbc-alt"> 
+		<h1 class="banner-alt"><a href="#">Basecamp</a> is the project management tool you </br>wish you had on your last project</h1>
+		
+		<h2 class="bannerbc-subalt">Are you still managing projects with email? Are you still using Exel for your to-do-lists? Its time to upgrade to </br>Basecamp. Manage projects and collaborate with your teams and clients the modern way.</h2>
+		</div>
+
+		<!--This is substitue text for box 2-->
+
+		<div class="bannerhr-alt">
+		<h1 class="banner-alt"><a href="#">Highrise</a> remembers the important things </br>about people you'd normally forget.</h1>
+		
+		<h2 class="bannerbc-subalt">Keep a permanent record of people you do business with. Know who you talked to, when to talk to them, </br>what was said and when to follow up next. Over 20,000,000 contacts are tracked using Highrise.</h2>
+		</div>
+
+		<!--This is substitute text for box 3-->
+
+		<div class="bannercf-alt">
+		<h1 class="banner-alt">From near or far, <a href="#">Campfire</a> helps teams work </br>together over the web in a real-time.</h1>
+		
+		<h2 class="bannerbc-subalt">Share ideas, concepts, images, code samples, videos, mockups and documents in a </br>real-time chatroom. It's game changing. We couldn't run our business without Campfire.</h2>
+		</div>
+
+		<!--end substitute text-->
+
+
 			<div class="box-set">
-				<div class="box">
+					
+				<div class="box" id="box1" arrow="arrowone" banner-alt="bannerbc-alt" >
 					<img src="images/logo-bc.png" alt="basecamp-logo">
-					<h3> <a href="#">BaseCamp</a><sup>®</sup></h3>
+					<img id="arrowone"  src= "images/arrow-left.png"  alt="left arrow" width="69" height="69">
+					<h3 class="basecamp"> <a href="#">BaseCamp</a><sup>®</sup></h3>
 					<h4>Manage Projects</h4>
 					<p class=box-blurb>Used by millions for project management</p>
 				</div>
-				<div class="box">
+			
+				<div class="box" id="box2" arrow="arrowtwo" banner-alt="bannerhr-alt">
 					<img src="images/logo-hr.png" alt="highrise-logo">
+						<img id="arrowtwo"  src= "images/arrow-left.png"  alt="left arrow" width="69" height="69">
 					<h3><a href="#">Highrise</a><sup>®</sup></h3>
 					<h4>Manage Contacts</h4>
 					<p class=box-blurb>Know the people you do business with</p>
 					</div>
-				<div class="box">
+				<div class="box" id="box3" arrow="arrowthree" banner-alt="bannercf-alt">
 					<img src="images/logo-bc.png" alt="campfire-logo">
+					<img id="arrowthree"  src= "images/arrow-right.png"  alt="left arrow" width="69" height="69">
 					<h3><a href="#">Campfire</a><sup>®</sup></h3>
 					<h4>Work in Real-Time</h4>
 					<p class=box-blurb>Group chat rooms for your business</p>
 					</div>
 			</div>
-	</div>
-		
-</div>	
+	</div>	
+</div>
+
 </body>	
 
 </html>

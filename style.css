@@ -55,6 +55,10 @@ body {
 	font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
 }
 
+.emphasis {
+	color:green;
+}
+
 #wrapper {
 	width: 100%;
 	margin: 0 auto;
@@ -80,7 +84,6 @@ nav ul li {
 	padding-right:10px;
 	display: inline;
 	font-size: 13px;
-	
 }
 
 nav ul li a {
@@ -93,7 +96,7 @@ nav ul li a {
 }
 
 .main {
-	width: 1000px;
+	width: 1050px;
 	margin: 0 auto;
 	text-align:center;
 	padding-top: 90px;
@@ -107,20 +110,38 @@ h1, h2 {
 
 h1 {
 	padding-top: 15px;
-	font-size: 58px;
+	font-size: 52px;
 	font-weight: bold;
 	font-height: 58px;
 	color: #232323;
-	line-spacing: -2px;
 }
 
 h2 {
-	font-size: 23px;
-	padding-top:22px;
+	font-size: 25px;
+	padding-top:20px;	
+}
+
+.bannerbc-alt, .bannerhr-alt, .bannercf-alt {
+	display:none;	
+}
+
+.banner-alt {
+	font-size:44px;
+	padding-top:14px;
+}
+
+.bannerbc-subalt {
+	font-family: "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif;
+	font-size: 17px;
+	color: #232323;
+	text-align: center;
+	line-height: 21px;
+	
 }
 
 .box {
 	display: inline-block;
+	cursor:pointer;
 	margin: 35px 10px;
 	width: 160px;
 	height: 240px;
@@ -131,8 +152,28 @@ h2 {
 }
 
 .box img {
-	margin-top: 20px;
-	width: 110px;
+	margin-top: 20px;	
+}
+
+#arrowone, #arrowtwo, #arrowthree {
+	position:absolute;
+	margin-top: -30px;
+	display:none;
+}
+
+
+#arrowone {
+	margin-left: -20px;
+}
+
+#arrowtwo {
+	margin-left: -10px;
+	z-index:2;
+}
+
+#arrowthree {
+	margin-left: -180px;
+	z-index:1;
 }
 
 h3 {
@@ -141,10 +182,9 @@ h3 {
 	margin-top: 6px;
 }
 
-h3 a {
+h1 a, h3 a {
 	color: #369;
 }
-
 
 sup {
 	color: #999;
@@ -164,5 +204,7 @@ h4 {
 	font-size: 12px;
 	line-height: 16px;
 	color: #222;
+
+
 
 }
